@@ -1,0 +1,63 @@
+
+/*Estilo do cabecalho*/
+header{
+    padding: 40px 4% 4%; /*Espacamento do topo, direita e esquerda*/
+}
+
+/*Estilo do menu*/
+.interface{
+    max-width: 1280px; /*Tera uma largura maxima ele nao vaia passar dos 1280px*/
+    margin: 0 auto; /*Centraliza o conteudo*/
+}
+
+header > .interface{
+    display: flex; /*Faz com que os elementos fiquem um ao lado do outro*/
+    justify-content: space-between; /*Faz com que os elementos fiquem um ao lado do outro com maior intervalo de espaço possivel*/
+    align-items: center; /*Alinha os elementos no centro*/ 
+}
+
+ #meu-nome{
+    color:  #22D4FD;
+    transition: none;
+    transform: none;
+
+  
+}
+
+
+header a{
+    color: #5c5c5c;
+    text-decoration: none;
+    display: inline-block; /*converter o link para funcionar o trasnform*/
+}
+
+header a:hover{
+    color: #22D4FD;
+    transform: scale(1.05); /*Aumenta o tamanho do elemento*/
+    transition: .2s; /*Tempo de transicao*/
+}
+
+header nav ul{
+    list-style-type: none; /*Remove a bolinha da lista*/
+}
+
+header nav ul li{
+    display: inline-block; /*Faz com que os elementos fiquem um ao lado do outro*/
+    padding: 0 40px; /*Espacamento do topo e direita*/
+
+}
+
+ header .btn-contato button{
+    padding: 10px 50px; /*Espacamento do topo e direita*/
+    font-size: 18px;
+    font-weight: 600;
+    background-color: #22D4FD;
+    border: none;
+    border-radius: 30px;
+    cursor: pointer;
+}
+
+header .btn-contato button:hover{
+    box-shadow: 0 0 20px #22D4FD; /*Sombra do botao*/
+    transition: 0.2s; /*Tempo de transicao*/
+}
