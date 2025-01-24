@@ -1,0 +1,56 @@
+.formulario {
+  padding: 100px 4%; /* Espaçamento interno do formulário */
+}
+
+form {
+  max-width: 500px; /* Largura máxima do formulário */
+  margin: 0 auto; /* Centraliza o formulário */
+  display: flex; /* Faz com que os elementos fiquem lado a lado */
+  justify-content: center; /* Alinha os elementos no centro */
+  flex-direction: column; /* Faz com que os elementos fiquem um embaixo do outro */
+  gap: 10px; /* Espaçamento entre os elementos */
+  margin-top: 40px;
+}
+
+form input {
+  width: 100%; /* Largura total do input */
+  background-color: rgba(78, 78, 78, 0.37); /* Cor de fundo do input */
+  border: none; /* Remove a borda do input */
+  outline: none; /* Remove a borda de foco do input */
+  padding: 20px 15px; /* Espaçamento interno do input */
+  border-radius: 15px; /* Arredonda as bordas do input */
+  color: white; /* Cor do texto do input */
+  font-size: 15px; /* Tamanho da fonte do input */
+}
+
+form textarea {
+  width: 100%; /* Largura total do textarea */
+  height: 150px; /* Largura máxima do textarea */
+  background-color: rgba(78, 78, 78, 0.37); /* Cor de fundo do textarea */
+  border: none; /* Remove a borda do textarea */
+  outline: none; /* Remove a borda de foco do textarea */
+  padding: 20px 15px; /* Espaçamento interno do textarea */
+  border-radius: 15px; /* Arredonda as bordas do textarea */
+  color: white; /* Cor do texto do textarea */
+  font-size: 15px; /* Tamanho da fonte do textarea */
+  resize: none; /* Remove a opção de redimensionar o textarea */
+}
+
+form .btn-enviar {
+  margin-top: 20px; /* Espaçamento superior do botão */
+  text-align: center;
+}
+
+form .btn-enviar input {
+  width: 120px; /* Largura do botão */
+  background-color: #22d4fd;
+  color: black; /* Cor do texto do botão */
+  cursor: pointer;
+  font-weight: 700; /* Peso da fonte do botão */
+  transition: 0.2s;
+}
+
+form .btn-enviar input:hover {
+  box-shadow: 0 0 10px #22d4fd; /*Sombra do botao*/
+  transform: scale(1.05); /*Efeito de escala ao passar o mouse*/
+}

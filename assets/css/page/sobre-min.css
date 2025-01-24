@@ -33,15 +33,40 @@
   text-align: justify;
 }
 
-
-.redes-sociais button{
-    width: 50px;
-    height: 50px;
-    border-radius: 50%;	
-    border: none;
-    background-color: #22d4fd;
-    font-size: 25px;
-    cursor: pointer;
-    margin: 0 5px;
-  
+.redes-sociais button {
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  border: none;
+  background-color: #22d4fd;
+  font-size: 25px;
+  cursor: pointer;
+  margin: 0 5px;
+  transition: 0.3s;
 }
+
+.redes-sociais button:hover {
+  box-shadow: 0 0 10px #22d4fd; /*Sombra do botao*/
+  transform: scale(1.05); /*Efeito de escala ao passar o mouse*/
+}
+
+#whatsapp:hover {
+  background-color: #00ff5e;
+}
+#instagram:hover {
+    background: linear-gradient(
+        39deg,
+        rgba(180, 175, 58, 1) 10%,
+        rgba(198, 113, 37, 1) 23%,
+        rgba(216, 54, 17, 1) 29%,
+        rgba(231, 4, 1, 1) 34%,
+        rgba(252, 69, 242, 1) 79%
+      );
+}
+#linkedin:hover {
+   background-color: #0a66c2;
+}
+#github:hover {
+  background-color: #ffffff;
+}
+

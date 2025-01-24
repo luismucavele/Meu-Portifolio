@@ -34,11 +34,11 @@ header a:hover {
   transition: 0.2s; /*Tempo de transicao*/
 }
 
-header nav ul {
+header nav  ul {
   list-style-type: none; /*Remove a bolinha da lista*/
 }
 
-header nav ul li {
+header nav .menu-desktop ul li {
   display: inline-block; /*Faz com que os elementos fiquem um ao lado do outro*/
   padding: 0 40px; /*Espacamento do topo e direita*/
 }
