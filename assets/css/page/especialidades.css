@@ -1,0 +1,39 @@
+.especialidades{
+    padding: 60px 4%;
+
+}
+
+h2.titulo{
+    color: white;
+    font-size: 30px;
+    text-align: center;
+    
+}
+
+h2.titulo span{
+    color: #22d4fd;
+}
+
+
+.especialidade-box{
+    color: white;
+    margin-top: 45px;
+    border-radius: 20px;
+    padding: 30px;
+    transition: .2s;
+}
+.especialidade-box:hover{
+    box-shadow: 0 0 10px #22d5fd;
+    transition: 0.5s;
+    transform: scale(1.05);
+}
+.especialidade-box i{
+    font-size: 60px;
+    color: #22d4fd;
+}
+
+.especialidade-box h3{
+    font-size: 30px;
+    color: white;
+    margin: 15px 0;
+}

@@ -1,0 +1,47 @@
+.sobre-min {
+  padding: 60px 4%;
+}
+
+.txt-sobre {
+  color: white;
+}
+
+.sobre-min .flex {
+  align-items: center;
+  justify-content: space-between;
+}
+
+.img-sobre img {
+  width: 400px;
+  height: 400px;
+  border-radius: 20px;
+}
+
+.txt-sobre h2 {
+  font-size: 40px;
+  line-height: 40px;
+  margin-bottom: 30px;
+}
+
+.txt-sobre h2 span {
+  color: #22d4fd;
+  display: block;
+}
+
+.txt-sobre p {
+  margin: 20px 0;
+  text-align: justify;
+}
+
+
+.redes-sociais button{
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;	
+    border: none;
+    background-color: #22d4fd;
+    font-size: 25px;
+    cursor: pointer;
+    margin: 0 5px;
+  
+}

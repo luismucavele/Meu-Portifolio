@@ -1,0 +1,54 @@
+/*Estilo do topo do site*/
+
+section {
+  padding: 40px 4%; /*Espacamento do topo, direita e esquerda*/
+}
+
+.flex {
+  justify-content: center; /*Faz com que os elementos fiquem um ao lado do outro com maior intervalo de espaço possivel*/
+  align-items: center; /*Alinha os elementos no centro*/
+  gap: 90px; /*Espacamento entre os elementos*/
+  display: flex; /*Faz com que os elementos fiquem um ao lado do outro*/
+}
+.txt-top-site h1 {
+  color: #ffffff;
+  font-size: 30px;
+  line-height: 40px;
+}
+
+.txt-top-site p {
+  color: #ffffff;
+  font-size: 20px;
+  margin: 40px 0;
+}
+
+.txt-top-site h1 span {
+  color: #22d4fd;
+  font-size: 50px;
+}
+
+section .btn-contato button {
+  padding: 10px 25px; /*Espacamento do topo e direita*/
+  font-size: 18px;
+  font-weight: 600;
+  background-color: #22d4fd;
+  border: none;
+  border-radius: 30px;
+  cursor: pointer;
+}
+
+section .btn-contato button:hover {
+  box-shadow: 0 0 10px #22d4fd; /*Sombra do botao*/
+  transition: 0.2s; /*Tempo de transicao*/
+  transform: scale(1.05); /*Aumenta o tamanho do elemento*/
+}
+
+.img-top-site img {
+  border-radius: 50%;
+  width: 340px;
+  height: 350px;
+  border: 1px solid #22d4fd;
+  box-shadow: rgb(33, 212, 252) 0px 4px 55px, rgb(33, 212, 252) 0px -12px 30px,
+    rgb(33, 212, 252) 0px 4px 6px, rgb(33, 212, 252) 0px 12px 13px,
+    rgb(33, 212, 252) 0px -3px 5px;
+}
