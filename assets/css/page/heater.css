@@ -1,25 +1,25 @@
-/*Estilo do cabecalho*/
-header {
-  padding: 40px 4% 4%; /*Espacamento do topo, direita e esquerda*/
-  
+header{
+  padding: 40px 4%;
+
 }
 
-/*Estilo do menu*/
-.interface {
-  max-width: 1280px; /*Tera uma largura maxima ele nao vaia passar dos 1280px*/
-  margin: 0 auto; /*Centraliza o conteudo*/
+header .interface{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
 }
 
-header > .interface {
-  display: flex; /*Faz com que os elementos fiquem um ao lado do outro*/
-  justify-content: space-between; /*Faz com que os elementos fiquem um ao lado do outro com maior intervalo de espaço possivel*/
-  align-items: center; /*Alinha os elementos no centro*/
+header a {
+  color: white;
 }
 
-#meu-nome {
-  color: #22d4fd;
-  transition: none;
-  transform: none;
+header nav  ul {
+  list-style-type: none; /*Remove a bolinha da lista*/
+}
+
+header nav .menu-desktop  ul li {
+  display: inline-block; /*Faz com que os elementos fiquem um ao lado do outro*/
+  padding: 0 40px; /*Espacamento do topo e direita*/
 }
 
 header a {
@@ -28,19 +28,16 @@ header a {
   display: inline-block; /*converter o link para funcionar o trasnform*/
 }
 
-header a:hover {
+header nav .menu-desktop a:hover {
   color: #22d4fd;
   transform: scale(1.05); /*Aumenta o tamanho do elemento*/
   transition: 0.2s; /*Tempo de transicao*/
 }
 
-header nav  ul {
-  list-style-type: none; /*Remove a bolinha da lista*/
-}
-
-header nav .menu-desktop ul li {
-  display: inline-block; /*Faz com que os elementos fiquem um ao lado do outro*/
-  padding: 0 40px; /*Espacamento do topo e direita*/
+#meu-nome {
+  color: #22d4fd;
+  transition: none;
+  transform: none;
 }
 
 header .btn-contato button {

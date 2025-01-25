@@ -16,8 +16,7 @@ body{
     height: 100vh;
 }
 
-.interface{
-    max-width: 1280px;
-    margin: 0 auto;
-}
-
+.interface {
+    max-width: 1280px; /*Tera uma largura maxima ele nao vaia passar dos 1280px*/
+    margin: 0 auto; /*Centraliza o conteudo*/
+  }
