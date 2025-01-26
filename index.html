@@ -25,7 +25,7 @@
     <title>Meu Portfólio</title>
   </head>
   <body>
-    <header>
+    <header id="Início">
       <div class="interface">
         <!-- inicio da interface-->
         <div class="logo">
@@ -34,10 +34,10 @@
         <!--Logo-->
         <nav class="menu-desktop">
           <ul>
-            <li><a href="#">Início</a></li>
-            <li><a href="#">Especialidade</a></li>
-            <li><a href="#">Sobre</a></li>
-            <li><a href="#">Projetos</a></li>
+            <li><a href="#Início">Início</a></li>
+            <li><a href="#Especialidade">Especialidade</a></li>
+            <li><a href="#Sobre-min">Sobre-min</a></li>
+            <li><a href="#Projetos">Projetos</a></li>
           </ul>
         </nav>
         <!--nav-->
@@ -48,20 +48,19 @@
         <div class="btn-abrir-menu" id="btn-menu">
           <i class="bi bi-list"></i>
         </div>
+
         <div class="menu-mobile" id="menu-mobile">
           <div class="btn-fechar" id="btn-fechar">
             <i class="bi bi-x-lg"></i>
           </div>
-          <nav>
+          <nav class="menu-mobile-nav">
             <ul>
-              <li><a href="#">Início</a></li>
-              <li><a href="#">Especialidade</a></li>
-              <li><a href="#">Sobre</a></li>
+              <li><a href="#Início">Início</a></li>
+              <li><a href="#Especialidade">Especialidade</a></li>
+              <li><a href="#Sobre-min">Sobre-min</a></li>
               <li><a href="#">Projetos</a></li>
-              <li><a href="#">Contato</a></li>
-              
+              <li><a href="#falecomigo">Contato</a></li>
             </ul>
-            
           </nav>
         </div>
 
@@ -82,7 +81,7 @@
                 designers a colocarem em prática boas ideias. Vamos conversar?
               </p>
               <div class="btn-contato">
-                <a href="#"><button>Entre em Contato</button></a>
+                <a href="#falecomigo"><button>Entre em Contato</button></a>
               </div>
             </div>
             <div class="img-top-site">
@@ -93,7 +92,7 @@
         <!--interface-->
       </section>
       <!--top do site-->
-      <div class="especialidades">
+      <div class="especialidades" id="Especialidade">
         <div class="interface">
           <h2 class="titulo">MINHAS <span>ESPECIALIDADES.</span></h2>
           <div class="flex">
@@ -130,7 +129,7 @@
           </div>
         </div>
       </div>
-      <div class="sobre-min">
+      <div class="sobre-min" id="Sobre-min">
         <div class="interfece">
           <div class="flex">
             <div class="img-sobre">
@@ -172,25 +171,25 @@
           </div>
         </div>
       </div>
-      <div class="formulario">
+      <div class="formulario" id="falecomigo">
         <div class="interface">
           <h2 class="titulo">FALA <span>COMIGO.</span></h2>
           <form action="">
             <input
               type="text"
               name=""
-              id=""
+              id="nome-box"
               placeholder="Seu nome completo"
               required
             />
             <input
               type="email"
-              name=""
+              name="email-box"
               id=""
               placeholder="Seu e-mail"
               required
             />
-            <input type="tel" name="" id="" placeholder="Seu celular" />
+            <input type="tel" name="" id="tel-box" placeholder="Seu celular" />
 
             <textarea
               name=""

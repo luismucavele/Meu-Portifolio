@@ -1,9 +1,17 @@
+.btn-abrir-menu, .menu-mobile  {
+  display: none;
+}
+
 @media screen and (max-width: 1200px) {
   /* sessão dedicada ao cabeçlho */
+  .btn-abrir-menu, .menu-mobile  {
+    display: block;
+  }
   .menu-desktop,
   .btn-contato {
     display: none;
   }
+
 
   section {
     padding: 40px 8%; /*Espacamento do topo, direita e esquerda*/

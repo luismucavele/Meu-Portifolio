@@ -13,22 +13,23 @@ header a {
   color: white;
 }
 
-header nav  ul {
+header nav.menu-desktop  ul {
   list-style-type: none; /*Remove a bolinha da lista*/
 }
 
-header nav .menu-desktop  ul li {
+header nav.menu-desktop ul li {
   display: inline-block; /*Faz com que os elementos fiquem um ao lado do outro*/
   padding: 0 40px; /*Espacamento do topo e direita*/
 }
 
-header a {
+header nav.menu-desktop a {
   color: #5c5c5c;
+  text-decoration: none;
   text-decoration: none;
   display: inline-block; /*converter o link para funcionar o trasnform*/
 }
 
-header nav .menu-desktop a:hover {
+header nav.menu-desktop a:hover {
   color: #22d4fd;
   transform: scale(1.05); /*Aumenta o tamanho do elemento*/
   transition: 0.2s; /*Tempo de transicao*/
@@ -38,6 +39,7 @@ header nav .menu-desktop a:hover {
   color: #22d4fd;
   transition: none;
   transform: none;
+  text-decoration: none;
 }
 
 header .btn-contato button {

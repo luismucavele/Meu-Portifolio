@@ -14,9 +14,11 @@
 body{
     background-color: rgb(0, 0, 0);
     height: 100vh;
+    scroll-behavior: smooth;
 }
 
 .interface {
     max-width: 1280px; /*Tera uma largura maxima ele nao vaia passar dos 1280px*/
     margin: 0 auto; /*Centraliza o conteudo*/
   }
+

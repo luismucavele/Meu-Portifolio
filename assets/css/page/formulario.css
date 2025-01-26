@@ -1,5 +1,5 @@
 .formulario {
-  padding: 100px 4%; /* Espaçamento interno do formulário */
+  padding: 61px 4%; /* Espaçamento interno do formulário */
 }
 
 form {
@@ -25,7 +25,7 @@ form input {
 
 form textarea {
   width: 100%; /* Largura total do textarea */
-  height: 150px; /* Largura máxima do textarea */
+  height: 130px; /* Largura máxima do textarea */
   background-color: rgba(78, 78, 78, 0.37); /* Cor de fundo do textarea */
   border: none; /* Remove a borda do textarea */
   outline: none; /* Remove a borda de foco do textarea */
