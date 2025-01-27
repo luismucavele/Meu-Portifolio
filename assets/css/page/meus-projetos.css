@@ -1,0 +1,117 @@
+.slider {
+  margin: 0 auto; /* centraliza o slider */
+  width: 800px; /* largura do slider */
+  height: 500px; /* altura do slider */
+  overflow: hidden; /* esconde as imagens que ultrapassam a largura do slider */
+  margin-top: 10%;
+}
+
+.slider h2{
+  margin-bottom: 6%;
+}
+
+.slides{
+  width: 400%; /* largura total das imagens */
+  display: flex; /* alinha as imagens em linha */
+  height: 400px; /* altura do slider */
+
+}
+
+.slides input{
+  display: none; /* esconde os inputs */
+}
+
+.slide{
+  width: 25%; /* largura de cada imagem */
+  position: relative; /* posiciona as imagens */
+  transition: 2s;
+}
+
+.slide img{
+  width: 800px; /* largura da imagem */
+}
+
+.navigation-manual{
+  position: absolute; /* posiciona o controle de navegação */
+  width: 800px; /* largura do controle de navegação */
+  display: flex; /* alinha os controles de navegação em linha */
+  justify-content: center; /* centraliza os controles de navegação */
+  margin-top: -100px;
+}
+
+.manual-btn{
+  border: 2px solid #ffffff; /* borda do controle de navegação */
+  padding: 5px; /* preenchimento do controle de navegação */
+  border-radius: 10px; /* arredonda o controle de navegação */
+  cursor: pointer; /* cursor de mão */
+  transition:.3s; /* tempo de transição */
+
+}
+
+.manual-btn:not(:last-child){
+  margin-right: 30px; /* margem entre os controles de navegação */
+}
+
+.manual-btn:hover{
+  background:  #22d4fd; /* cor de fundo do controle de navegação */
+}
+
+#radio1:checked ~ .first{
+  margin-left: 0; /* margem da primeira imagem */
+}
+
+#radio2:checked ~ .first{
+  margin-left: -25%; /* margem da segunda imagem */
+}
+
+#radio3:checked ~ .first{
+  margin-left: -50%; /* margem da terceira imagem */
+}
+
+#radio4:checked ~ .first{
+  margin-left: -75%; /* margem da quarta imagem */
+}
+
+.navigation-auto div{
+  border: 2px solid red;
+  padding: 5px;
+  border-radius: 10px;
+  cursor: pointer;
+  transition: 1s;
+
+}
+
+.navigation-auto{
+  position: absolute;
+  width: 800px;
+  margin-top: 300px;
+  display: flex;
+  justify-content: center;
+
+}
+
+
+#radio1:checked ~ .navigation-auto .auto-btn1{
+  background:  #22d4fd; /* cor de fundo do controle de navegação */
+}
+
+.navigation-auto div:not(:last-child){
+  margin-right: 30px; /* margem entre os controles de navegação */
+  
+}
+
+#radio1:checked ~ .navigation-auto .auto-btn1{
+  background-color: #22d4fd;
+}
+#radio2:checked ~ .navigation-auto .auto-btn2{
+  background-color: #22d4fd;
+}
+#radio3:checked ~ .navigation-auto .auto-btn3{
+  background-color: #22d4fd;
+}
+#radio4:checked ~ .navigation-auto .auto-btn4{
+  background-color: #22d4fd;
+}
+
+
+
